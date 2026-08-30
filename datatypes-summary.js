@@ -37,3 +37,23 @@ const myFunction = function(){
 console.log(typeof heros); //Return Object because Arrays are technically Object in JS
 console.log(typeof Objects); //Return Object
 console.log(typeof myFunction); //Return Function
+
+// Stack Memory & Heap Memory
+// Primitive datatypes are stored in stack memory
+// Non-Primitive datatypes are stored in heap memory
+
+// Example
+let myHouseName = "Lakshami Narayan"
+let anotherName = myHouseName
+anotherName = "newHome";
+
+console.log(myHouseName);
+console.log(anotherName);
+
+let user = {
+    email: 'user@google.com',
+    UPI: 'user@bghm'
+}
+
+let user2 = user;
+console.log(user2);
