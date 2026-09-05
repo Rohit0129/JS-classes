@@ -35,5 +35,3 @@ console.log("B", array);
 const myn2 = array.splice(1, 3, "98");
 console.log("C", array);
 console.log(myn2);
-
-

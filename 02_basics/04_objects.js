@@ -26,7 +26,7 @@ const obj2 = {3: "c", 4: "d"}
 
 // using spread operator
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 const users = [
     {
@@ -40,11 +40,22 @@ const users = [
 ]
 
 // console.log(users[1].email);
-console.log(matrimonyUser);
+// console.log(matrimonyUser);
 
-console.log(Object.keys(matrimonyUser));
-console.log(Object.values(matrimonyUser));
+// console.log(Object.keys(matrimonyUser));
+// console.log(Object.values(matrimonyUser));
 
 // Entries are used for making every key value into arrys. These are used less comparitively
-console.log(Object.entries(matrimonyUser));
+// console.log(Object.entries(matrimonyUser));
 
+
+const course = {
+    coursename: "Learn React",
+    price: "999",
+    courseTeacher: "Rohit"
+}
+
+// course.courseTeacher
+const {courseTeacher} = course
+
+console.log(courseTeacher);
